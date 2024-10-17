@@ -1,5 +1,5 @@
 
-const customer = {
+   const customer = {
     username: "Mango",
     balance: 24000,
     discount: 0.1,
