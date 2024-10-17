@@ -5,19 +5,19 @@
     discount: 0.1,
     orders: ["Burger", "Pizza", "Salad"],
     // Change code below this line
-    getBalance() {
+    this.getBalance() {
       return balance;
     },
-    getDiscount() {
+    this.getDiscount() {
       return discount;
     },
-    setDiscount(value) {
+    this.setDiscount(value) {
       discount = value;
     },
-    getOrders() {
+    this.getOrders() {
       return orders;
     },
-    addOrder(cost, order) {
+    this.addOrder(cost, order) {
       balance -= cost - cost * discount;
       orders.push(order);
     },
